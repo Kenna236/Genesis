@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  /* Form container */
+  .background {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 700px; /* Adjust width as needed */
+    background-color: #f0f9ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Flexbox layout for sections with two columns */
+  .flex-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-items div {
+    flex: 1; /* Ensures equal width for both columns */
+  }
+  
+  /* Sections */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last section */
+  }
+  
+  /* Labels and input fields */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 0.9em; /* Adjust font size as needed */
+  }
+  
+  select {
+    -webkit-appearance: none; /* Remove default styling (optional) */
+    appearance: none; /* Modern browsers */
+    background-image: url("data:image/svg+xml;base64,phN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgIGhlaWdodD0iMTgiIHZpZXdCbG9jayI9ImFicSI+PHBhdGggZD0iTExLjA3IDcuOTggbDIuODUtMi44NS0xLjQxLTEuNDEgNS.wOS01LjA5LTUuMDkgMS40MS0xLjQxLTEuNDEtMi44NS0yLjg1IDcuNTMtNy41My0yLjU5LTEuMTkgOS45MiA5LjkwTDguOTA5IDE4bDYuMTgtNi4xOSB6IiBmaWxsPSIjYWFhYWFhIiBmaWxsLW9wYWNpdにくいIHN0HJv والكبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبةبة"); /* Replace with your icon (optional) */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust icon position */
+    padding-right: 30px; /* Adjust padding to accommodate icon */
+  }
+  
+  /* Buttons */
+  button[type="submit"],
+  button[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #3498db; /* Blue color for submit button */
+    color: #fff; /* White text
+  

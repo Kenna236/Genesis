@@ -1,0 +1,73 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #3498db; /* Blue color for the company name */
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #2980b9; /* Darker blue for the form title */
+}
+
+/* Form styling */
+form {
+  border: 1px solid #ddd; /* Changed border color for better contrast */
+  border-radius: 5px; /* Add rounded corners */
+  padding: 20px;
+  margin: 0 auto;
+  width: 500px;
+  background-color: #f0f9ff; /* Light background for the form */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+  body {
+    /* Existing styles... */
+    background-image: url("background.jpg"); /* Replace with your image name */
+    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    background-position: center; /* Center the image horizontally and vertically */
+}

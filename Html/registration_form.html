@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Seekers Registration Form</title>
+        <link rel="stylesheet" href="../Html/css/form.css">
+        <script src="Regform.js"></script>
+    </head>
+    <body>
+        <h1>Watch Perfect Inc. </h1>
+        <h2>Job Seekers Registration Form</h2>
+        <h4>LOGIN DETAILS</h4>
+        <form action="thankyou.html" method="post" name="form1">
+    <table>
+        <tr>
+            <td>Username:</td> <td><input type="text" name="user" id="id1" onblur="user_check(user) , user_check_length()"></td>
+        </tr>
+        <tr>
+            <td>Password:</td> <td><input type="password" name="pass" id="word" ></td> <td></td>
+        </tr>
+        <tr>
+            <td>Re-enter Password:</td>  <td><input type="password" name="c-pass" id="word"></td>
+        </tr>
+        <tr>
+            <td><h4>PERSONAL DETAILS</h4></td>
+        </tr>
+        <tr>
+            <td>First Name:</td> <td><input type="text" name="first" id="name"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td> <td><input type="text" name="last" id="name"></td>
+        </tr>
+        <tr>
+            <td>Email Address:</td> <td><input type="email" name="email" id="address" onblur="ValidateEmail(email)"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td><select name="Gender">
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select></td>
+        </tr> 
+        <tr>
+            <td>Phone Number:</td> <td><input type="text" name="phone" id="" maxlength="11"  onblur="CheckLength(phone)"></td>
+        </tr>
+        <tr>
+            <td>Preferred Job Loction:</td>
+            <td><select name="joblocation" id="">
+                <option value="">Lagos</option>
+                <option value="">Abuja</option>
+                <option value="">Enugu</option>
+                <option value="">Jos</option>
+                <option value="">kogi</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><h4>PROFESSIONAL DETAILS</h4></td>
+        </tr>
+        <tr>
+            <td>Experience(in years):</td><td><input type="text" name="experience" id=""></td>
+        </tr>
+        <tr>
+            <td>Key Skills:</td>
+            <td> <select name="skills" id="">
+                <option value="">Java Oracle</option>
+                <option value="">Html</option>
+                <option value="">Css</option>
+                <option value="">Php</option>
+            </select></td>
+        </tr>
+          <button onclick="user_check()">submit</button> 
+    
+    
+    </table>
+</form>
+<script src="form.js"></script>
+    </body>
+    </html>
+    
+   

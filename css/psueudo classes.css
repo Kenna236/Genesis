@@ -1,0 +1,10 @@
+.columncg{
+    column-count: 3 ;
+    column-gap:  80px; 
+}
+.lineheight{
+    line-height: 30px;
+}
+.letterspacing{
+    letter-spacing: 10px;
+}

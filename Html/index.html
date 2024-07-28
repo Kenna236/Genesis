@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Seekers Registration Form</title>
+  <link rel="stylesheet" href="../Html/css/style.css">
+</head>
+<body>
+  <main>
+    <h1 class="company-title"><i>Watch Perfect Inc.</i></h1>
+    <h1 class="form-type">Job Seekers Registration Form</h1>
+
+    <div class="background">
+      <section>
+        <h2>LOGIN DETAILS</h2>
+        <div class="flex-items">
+          <div>
+            <article>
+              <label for="username">Username:</label>
+              <input class="u-input" type="text" placeholder="smithanis" id="username" onblur="userCheck()">
+            </article>
+          </div>
+          <div>
+            <article>
+              <label for="first-password">Password:</label>
+              <input type="password" name="" id="first-password" placeholder="* * *" onkeyup="passwordVerify()">
+            </article>
+            <article>
+              <label for="second-password">Re-enter Password:</label>
+              <input type="password" name="" id="second-password" placeholder="* * *" onkeyup="passwordVerify()">
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>PERSONAL DETAILS</h2>
+        <div class="flex-items">
+          <div>
+            <article>
+              <label for="first-name">First Name:</label>
+              <input type="text" placeholder="Smith" id="first-name" onblur="names()">
+            </article>
+            <article>
+              <label for="email">E-mail Address:</label>
+              <input type="email" name="" placeholder="smith@rr.com" id="email">
+            </article>
+            <article>
+              <label for="phone-number">Phone-Number:</label>
+              <input type="tel" name="" id="phone-number" placeholder="+33444">
+            </article>
+          </div>
+          <div>
+            <article>
+              <label for="second-name">Last Name:</label>
+              <input type="text" placeholder="Anniston" id="second-name" onblur="names()">
+            </article>
+            <article>
+              <label for="gender">Gender:</label>
+              <select class="select1" name="" id="gender">
+                <option value="">Male</option>
+                <option value="">Female</option>
+              </select>
+            </article>
+            <article>
+              <label for="job-location">Preferred Job Location:</label>
+              <select class="select2" name="" id="job-location">
+                <option value="">Arizona</option>
+                <option value="">New Jersey</option>
+                <option value="">Detroit</option>
+                <option value="">Toronto</option>
+                <option value="">Washington D.C.</option>
+                <option value="">New York</option>
+                <option value="">California</option>
+              </select>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>PROFESSIONAL DETAILS</h2>
+        <div class="flex-items">
+          <div>
+            <article>
+              <label for="experience">Experience (in years):</label>
+              <input type="number" name="" id="experience" placeholder="4">
+            </article>
+          </div>
+          <div>
+            <article>
+              <label for="key-skills">Key Skills:</label>
+              <input type="text" placeholder="Java, Oracle" id="key-skills">
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>QUALIFICATION</h2>
+        <article>
+          <label for="degree">Degree held:</label>
+          <select name="" id="degree">
+            <option value="">Masters</option>
+            <option value="">Graduate</option>
+            <option value="">Diploma</option>
+            <option value="">
